@@ -1,31 +1,40 @@
+
+
 .basicIntro
 {
-    border-style:solid;
+    border-style:double;
     border-color:black;
     border-radius:12px;
-    border-width:2px;
+    border-width:10px;
     padding:5px 10px 5px 10px;
     margin-left:5px;
-    margin-top:50px;
+    margin-top:40px;
     margin-right:5px;
-    background-color: rgb(176, 176, 176);
-}
-img
-{
-    width: 100px;
-    height: auto;
-    margin-top: 40px;
+    background-color: rgb(198, 198, 198);
     
 }
 
+h1
+{
+    
+    font-family:'Ubuntu', sans-serif;
+    border: 2px solid black;
+    text-align:center;
+    
+    
+}
 #content-left
 {
     display: inline-block;
-    vertical-align:top;
+    background-color: grey;
+    padding:15px;
+    border: 2px solid black;
+    border-radius:12px;
     width:300px;
     height:400px;
     margin-top:20px;
     margin-left:20px;
+    margin-bottom:20px;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     
@@ -33,5 +42,5 @@ img
 #content-right
 {
     display: inline-block;
-    margin-left:200px;
+    
 }
