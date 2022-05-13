@@ -39,8 +39,23 @@ h1
     font-family: 'Ubuntu', sans-serif;
     
 }
-#content-right
+#content-right-top
 {
     display: inline-block;
+    border:2px solid black;
+    padding:5px;
+    background-color: grey;
+    border-radius: 12px;
+    font-family: 'Ubuntu', sans-serif;
     
+}
+#content-right-bottom
+{
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    border:2px solid black;
+    border-radius:12px;
+    background-color:grey;
+    padding:5px;
+
 }
